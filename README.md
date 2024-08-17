@@ -68,6 +68,14 @@ Install them via Homebrew:
 brew install ripgrep fd
 ```
 
+### Use nvim as git editor
+
+To use nvim as git editor instead of vim, run
+
+```bash
+git config --global core.editor nvim
+```
+
 ### Uninstall
 
 To uninstall neovim
