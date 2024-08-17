@@ -10,6 +10,7 @@ return {
         "vimdoc",
         "javascript",
         "typescript",
+        "tsx",
         "html",
         "go",
         "dockerfile",
