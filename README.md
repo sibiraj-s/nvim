@@ -61,11 +61,12 @@ In addition, some plugins require the following utilities to be installed:
 
 - [ripgrep]: For fast text searching within Neovim.
 - [fd]: A simple, fast alternative to `find`.
+- [stylua] - Lua code formatter
 
 Install them via Homebrew:
 
 ```bash
-brew install ripgrep fd
+brew install ripgrep fd stylua
 ```
 
 ### Use nvim as git editor
@@ -97,7 +98,7 @@ Once Neovim is uninstalled, utilities like `ripgrep`, `sharkdp/fd`, or other too
 To remove these utilities, use the following command:
 
 ```bash
-brew uninstall ripgrep fd
+brew uninstall ripgrep fd stylua
 ```
 
 <!-- Links -->
@@ -105,5 +106,6 @@ brew uninstall ripgrep fd
 [Homebrew]: https://brew.sh
 [ripgrep]: https://github.com/BurntSushi/ripgrep
 [fd]: https://github.com/sharkdp/fd
+[stylua]: https://github.com/JohnnyMorganz/StyLua
 [Neovim]: https://neovim.io
 [lazy.nvim]: https://github.com/folke/lazy.nvim
