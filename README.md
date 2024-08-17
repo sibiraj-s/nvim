@@ -42,7 +42,7 @@ This configuration uses [lazy.nvim] for plugin management. Below is a list of pl
 - [williamboman/mason.nvim](https://github.com/williamboman/mason.nvim): Easy installation of LSP servers.
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim): LSP configuration support for Mason.
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): Quickstart configurations for LSP in Neovim.
-- [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim): A Neovim plugin for configuring formatters, linters, etc.
+- [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim): Lightweight yet powerful formatter plugin for Neovim.
 - [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons): Beautiful and configurable icons for Neovim.
 
 ### How to Install Plugins
