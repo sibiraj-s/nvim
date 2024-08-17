@@ -32,7 +32,7 @@ Once installed, set JetBrains Nerd Font Mono as the default font in your termina
 This configuration uses [lazy.nvim] for plugin management. Below is a list of plugins that are currently configured:
 
 - [goolord/alpha-nvim](https://github.com/goolord/alpha-nvim): A fast and customizable start screen for Neovim.
-- [catppuccin/nvim](https://github.com/catppuccin/nvim): A color scheme based on the Catppuccin palette.
+- [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim): A clean dark theme for Neovim.
 - [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive): Git integration for Neovim.
 - [nvim-lualine/lualine.nvim](https://github.com/nvim-lualine/lualine.nvim): A fast and easy status line.
 - [nvim-neo-tree/neo-tree.nvim](https://github.com/nvim-neo-tree/neo-tree.nvim): A modern file explorer.
@@ -43,7 +43,7 @@ This configuration uses [lazy.nvim] for plugin management. Below is a list of pl
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim): LSP configuration support for Mason.
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): Quickstart configurations for LSP in Neovim.
 - [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim): A Neovim plugin for configuring formatters, linters, etc.
-- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons): A lua fork of vim-web-devicons for neovim
+- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons): Beautiful and configurable icons for Neovim.
 
 ### How to Install Plugins
 

@@ -1,6 +1,6 @@
 local builtin = require("telescope.builtin")
 
-vim.cmd.colorscheme "catppuccin"
+vim.cmd.colorscheme "tokyonight-night"
 
 -- Editor config
 vim.opt.expandtab = true

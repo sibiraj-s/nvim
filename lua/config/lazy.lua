@@ -34,4 +34,4 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
-require("vim-options")
+require("options")
