@@ -43,7 +43,7 @@ This configuration uses [lazy.nvim] for plugin management. Below is a list of pl
 - [williamboman/mason-lspconfig.nvim](https://github.com/williamboman/mason-lspconfig.nvim): LSP configuration support for Mason.
 - [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig): Quickstart configurations for LSP in Neovim.
 - [nvimtools/none-ls.nvim](https://github.com/nvimtools/none-ls.nvim): A Neovim plugin for configuring formatters, linters, etc.
-- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons): A lua `fork` of vim-web-devicons for neovim
+- [nvim-tree/nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons): A lua fork of vim-web-devicons for neovim
 
 ### How to Install Plugins
 
