@@ -69,6 +69,10 @@ Install them via Homebrew:
 brew install ripgrep fd stylua
 ```
 
+### Diagnostics
+
+Once everything is setup and running, run the `:checkhealth` command, which runs a series of diagnostic tests to check the health of the Neovim installation.
+
 ### Use nvim as git editor
 
 To use nvim as git editor instead of vim, run
@@ -79,7 +83,13 @@ git config --global core.editor nvim
 
 ### Uninstall
 
-To uninstall neovim
+To uninstall neovim, run the following script
+
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/sibiraj-s/nvim/master/uninstall.sh)"
+```
+
+or manually by following the steps below
 
 ```bash
 brew uninstall neovim
@@ -91,6 +101,7 @@ After uninstalling Neovim, there will be still some residual configuration and s
 rm -rf ~/.local/share/nvim
 rm -rf ~/.local/state/nvim
 rm -rf ~/.config/nvim
+rm -rf ~/.cache/nvim
 ```
 
 Once Neovim is uninstalled, utilities like `ripgrep`, `sharkdp/fd`, or other tools installed via Homebrew may no longer be necessary. If these tools are not needed for other tasks, you can safely uninstall them as well.
