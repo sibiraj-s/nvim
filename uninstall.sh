@@ -123,7 +123,7 @@ confirm_uninstall
 info "Preparing to uninstall packages..."
 for package in "${installed_packages[@]}"; do
   yellown "Uninstalling $package"
-  brew uninstall $package &> /dev/null
+  brew uninstall $package
 done
 info "Packages uninstalled successfully"
 
