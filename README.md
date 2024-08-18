@@ -69,10 +69,6 @@ Install them via Homebrew:
 brew install ripgrep fd stylua
 ```
 
-### Diagnostics
-
-Once everything is setup and running, run the `:checkhealth` command, which runs a series of diagnostic tests to check the health of the Neovim installation.
-
 ### Use nvim as git editor
 
 To use nvim as git editor instead of vim, run
@@ -80,6 +76,36 @@ To use nvim as git editor instead of vim, run
 ```bash
 git config --global core.editor nvim
 ```
+
+### Diagnostics
+
+Once everything is setup and running, run the `:checkhealth` command, which runs a series of diagnostic tests to check the health of the Neovim installation.
+
+### Keymaps
+
+- `<C-p>` / `<leader>ff`: Find files using Telescope.
+- `<leader>fg`: Search for text with live grep using Telescope.
+- `<leader>fb`: Show list of open buffers using Telescope.
+- `<leader>fh`: Access help tags using Telescope.
+- `K`: Show hover information using LSP.
+- `gd`: Jump to the definition using LSP.
+- `<leader>ca`: Trigger code actions from LSP.
+- `<leader>fm`: Format code using Conform.
+
+### Other Useful Shortcuts
+
+For Neo Tree (File Explorer)
+
+- `H`: Toggle hidden files in Neo Tree.
+- `a`: Create a new file in Neo Tree.
+- `r`: Rename the selected file in Neo Tree.
+- `d`: Delete the selected file in Neo Tree.
+
+In Normal Mode (Text Editing)
+
+- `i`: Enter insert mode to the left of the cursor.
+- `a`: Enter insert mode to the right of the cursor.
+- `d`: Delete the current line.
 
 ### Uninstall
 
