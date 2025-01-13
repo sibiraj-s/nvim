@@ -16,6 +16,8 @@ Once neovim is installed, clone this repo to a desired location and create a sym
 ln -s ~/path/to/your/nvim-config ~/.config/nvim
 ```
 
+Make sure to provide the absolute path to the nvim-config directory when creating the symlink.
+
 ### Font
 
 I use the [JetBrains Nerd Font Mono](https://www.nerdfonts.com/font-downloads) for optimal compatibility with icons and ligatures in Neovim. Install it via Homebrew:
